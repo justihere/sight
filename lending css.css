@@ -1,0 +1,64 @@
+h2 {
+    font-family:'Comic Sans MS', Regular;
+    font-size: 800%;
+    padding-top: 1.5%;
+    color: #6e6562;
+}
+
+hr {
+    display: block;
+    border-style: double;
+    border-color: whitesmoke;
+    border-width: 7px;
+    /* size: 20px; */
+    margin-top: -1.7%; 
+    margin-left: 25px;
+    margin-right: 25px;
+}
+ul {
+	margin: 0;
+    font-family:'Comic Sans MS', Regular;
+    color: whitesmoke;
+}
+li {
+	text-align: center;
+	font-size: 380%;
+	font-weight: bold; 
+	width: 320px;
+	display: inline-block;
+	padding: 5px;
+	margin: 10px;
+}
+svg {
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+} 
+
+
+@import "compass/css3";
+.rhombus {
+  background: #ffffff;
+  margin: 5px auto;
+  width: 15px;
+  height: 15px;
+  width: 15px;
+  height: 15px;
+  
+  transform: skewX(30deg);
+  width: 15px;
+  height: 15px;
+  
+  transform: skewX(-30deg) sScaleY(cos(-30deg));
+  width: 15px;
+  height: 15px;
+  
+  margin-top: -0.9%;
+  margin-bottom: 0.7%;
+  margin-left: 98%;
+  
+  transform: rotate(30deg) skewX(-30deg) scaleY(cos(-30deg));
+}
+
+
