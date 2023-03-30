@@ -1,6 +1,6 @@
 h2 {
     font-family:'Comic Sans MS', Regular;
-    font-size: 800%;
+    font-size: 230%;
     padding-top: 1.5%;
     color: #6e6562;
 }
@@ -12,8 +12,9 @@ hr {
     border-width: 7px;
     /* size: 20px; */
     margin-top: -1.7%; 
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-left: 1.9%;
+    margin-right: 2.3%;
+
 }
 ul {
 	margin: 0;
@@ -22,12 +23,12 @@ ul {
 }
 li {
 	text-align: center;
-	font-size: 380%;
+	font-size:120%;
 	font-weight: bold; 
-	width: 320px;
+	width: 22%;
 	display: inline-block;
-	padding: 5px;
-	margin: 10px;
+	padding: 0.7%;
+	margin: 0.6%;
 }
 svg {
     margin-left: 0%;
@@ -39,7 +40,7 @@ svg {
 
 @import "compass/css3";
 .rhombus {
-  background: #ffffff;
+  background: rgb(255, 255, 255);
   margin: 5px auto;
   width: 15px;
   height: 15px;
