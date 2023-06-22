@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0; 
+}
+body {
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200;
+  width: 200;
+}
+.facebook-logo {
+  background: #4661b0;
+  width: 170px;
+  height: 210px;
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+  border: 15px solid #4661b0;
+  border-bottom: 0;
+}
+.facebook-logo:before {
+  content: "";
+  position: absolute;
+  background: #4661b0;
+  width: 55px;
+  height: 190px;
+  bottom: -40px;
+  right: -27px;
+  border: 25px solid #fff;
+  border-radius: 25px;
+}
+.facebook-logo:after {
+  content: "";
+  position: absolute;
+  background: #fff;
+  width: 75px;
+  height: 20px;
+  top: 80px;
+  right: 25px;
+}

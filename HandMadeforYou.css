@@ -1,0 +1,195 @@
+.container-fluid1{
+    background: #7728DB;
+    min-height: 140px;
+    width: 100%;
+}
+h1 {
+    font-family:'Comic Sans MS', Regular;
+    font-size: 300%; 
+    padding-top: 1.5%;
+    color: whitesmoke;
+}
+p{
+    font-family:'Comic Sans MS', Regular;
+    font-size: 150%; 
+    padding-top: 1.5%;
+    color: #6e6562;
+}
+.vidstup{
+    padding-left: 60%;
+    padding-right: 10%;
+    display: grid;
+    flex-direction: row;
+    align-items:stretch;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+    
+}
+
+.imageContent{
+    margin: 0 auto;
+    display: block; 
+    height: var(--image-h);
+    font-size: 190%; 
+}
+
+.wrapper{
+    padding-left: 20%;
+    padding-right: 20%;
+    display: grid;
+    flex-direction: row;
+    align-items:stretch;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+    margin-top: 1.5em;
+}
+
+.wrapper_table{
+    margin-top: 5em;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: grid;
+    flex-direction: row;
+    align-items:stretch;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+}
+.container-fluid3{
+    background: #7728DB;
+    min-height: 250px;
+    min-width: 700px;
+    margin-top: 3%;
+}
+.tableHeader {
+    width:100%;
+    min-width: 10%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+  }   
+
+  .outer {  
+    margin-top: 1em;
+    margin-left: 40; 
+    width: 200px;  
+    height: 200px;  
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);  
+    border-radius: 35px;  
+    display: grid;  
+    place-items: center;  
+  }  
+  /* innerside in outer box */  
+  .inner {  
+    width: 150px;  
+    height: 150px;  
+    border: 15px solid #fff;  
+    border-radius: 32px;  
+    display: grid;  
+    place-items: center;  
+    position: relative;  
+  } 
+  /* center circle of logo */  
+  .inner::before {  
+    content: '';  
+    width: 40px;  
+    height: 40px;  
+    border: 13px solid #fff;  
+    border-radius: 50%;  
+    background: transparent;  
+    position: absolute;  
+  }  
+  /* top right circle of logo */  
+  .inner::after {  
+    content: '';  
+    width: 12px;  
+    height: 12px;  
+    border: 4px solid #fff;  
+    border-radius: 50%;  
+    background: #fff;  
+    position: absolute;  
+    top: 13px;  
+    right: 15px;  
+} 
+
+.basis{
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20;
+
+}
+.facebook-logo {
+    background: #4661b0;
+    width: 170px;
+    height: 210px;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    border: 15px solid #4661b0;
+    border-bottom: 0;
+}
+.facebook-logo:before {
+    content: "";
+    position: absolute;
+    background: #4661b0;
+    width: 55px;
+    height: 190px;
+    bottom: -40px;
+    right: -30px;
+    border: 25px solid #fff;
+    border-radius: 25px;
+}
+.facebook-logo:after {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 75px;
+    height: 20px;
+    top: 80px;
+    right: 21px;
+}
+
+.ultra{
+    font-family:'Comic Sans MS';
+    font-size: 370%;
+    color:  whitesmoke;
+    
+}
+.labelResize{
+    margin-top: 7em;
+    margin-bottom: 3em;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: grid;
+    flex-direction: row;
+    align-items:stretch;
+    align-content: center;
+    justify-content: center;
+    font-size: 130%;
+   
+}
+.finally_labelImage{
+    /* outline: dashed 1px rgb(255, 255, 255);  */
+    display: inline-block; 
+    width: 100%;
+    margin: 0;
+    background-color: #E1E1E1;
+   
+}
+.labelImageContent{
+    font-size:xx-large;
+    text-align:center;
+    padding: 0.2em;
+    font-style: italic;
+    color:rgb(64, 64, 64);
+    font-family:'Comic Sans MS', Regular;
+    font-size: 150%;
+}
