@@ -1,0 +1,397 @@
+h1 {
+    font-family:'Comic Sans MS', Regular;
+    font-size: 250%; 
+    padding-top: 1.5%;
+    color: #6e6562;
+}
+hr {
+    display: block;
+    border-style: double;
+    border-color: whitesmoke;
+    border-width: 7px;
+    margin-top: -1.7%; 
+    margin-left: 1.9%;
+    margin-right: 2.3%;
+
+}
+
+.WhitE_line {
+    display: block;
+    border-style: double;
+    border-color: whitesmoke;
+    border-width: 7px;
+    margin-top: 0.7em;
+
+}
+ul {
+	margin: 0;
+    font-family:'Comic Sans MS', Regular;
+    color: whitesmoke;
+}
+li {
+	text-align: center;
+	font-size:150%;
+	font-weight: bold; 
+	width: 22%;
+	display: inline-block;
+	padding: 0.7%;
+	margin: 0.6%;
+}
+.circle {
+    
+    /* margin-right: 0; */
+    height: 1em;
+} 
+.centericon{
+    height: 1.3em; 
+    align-content: center;
+}
+
+@import "compass/css3";
+.rhombus {
+  background:  whitesmoke;
+  margin: 5px auto;
+  width: 15px;
+  height: 15px;
+  width: 15px;
+  height: 15px;
+  
+  transform: skewX(30deg);
+  width: 15px;
+  height: 15px;
+  
+  transform: skewX(-30deg) sScaleY(cos(-30deg));
+  width: 15px;
+  height: 15px;
+  
+  margin-top: -0.9%;
+  margin-bottom: 0.7%;
+  margin-left: 98%;
+  
+  transform: rotate(30deg) skewX(-30deg) scaleY(cos(-30deg));
+
+  margin-left: -70%;
+}
+
+
+.LineS{
+    width:100%;
+    min-width: 10%;
+}
+.text{
+    font-family:'Comic Sans MS', Regular;
+    font-size: 150%;
+    color: #6e6562;
+}
+
+.otstup{
+    margin-bottom: 5%;
+}
+
+.line_violet {
+    
+    display: block;
+    margin-top: -0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border: 4px solid #7728DB;
+    
+}
+
+.TexT{
+    font-family:'Comic Sans MS';
+    font-size: 170%;
+    /* margin-left: 74.5%; */
+    color: #6e6562; 
+    margin-top: -15%;
+}
+
+.tableHeader {
+    width:100%;
+    min-width: 10%;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.lefticon{
+    height: 0.5em;
+    align-content: left;
+}
+
+.righticon{
+    height: 1em;
+    align-content: right;
+    width: 1em;
+    height: 1em;
+    margin: 0;
+}
+
+:root{
+    --image-h: 40em;
+}
+
+.wrapper{
+    padding-left: 20%;
+    padding-right: 20%;
+    display: grid;
+    flex-direction: row;
+    align-items:stretch;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+    
+}
+
+.imageBlock{
+    
+    outline: dashed 1px #7728DB;
+    position: relative;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    height: var(--image-h);
+    width: auto;
+    margin: 2em;
+    grid-template-rows: repeat(2, auto);
+
+}
+
+
+.labelImage{
+    outline: dashed 1px black;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    background-color: #7728DB;
+    
+}
+
+.labelImageContent{
+    font-size:xx-large;
+    text-align:center;
+    padding: 0.2em;
+    font-style: italic;
+    color:white;
+    font-family:'Comic Sans MS', Regular;
+    font-size: 150%;
+}
+
+
+.imageContentHolder{
+    
+    background-color: transparent;
+    display: grid;
+}
+
+.imageContent{
+    margin: 0 auto;
+    display: block; 
+    height: var(--image-h);
+}
+
+.wrapper2{
+    margin-top: 5em;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: grid;
+    flex-direction: row;
+    align-items:stretch;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+    margin-bottom: 7em;
+}
+.Text_Ordering{
+    font-family:'Comic Sans MS';
+    font-size: 130%;
+    color: #464A16; 
+    
+}
+
+.wrapper_table{
+    margin-top: 5em;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: grid;
+    flex-direction: row;
+    align-items:stretch;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+}
+
+.location{  
+    font-family:'Comic Sans MS';
+    font-size: 210%;
+    color: #000000; 
+    align-content: right;
+    align-items:stretch;
+    justify-content: center;
+   
+    margin-left: 19%;
+    margin-top: -25%;
+
+}
+.Text_locale{
+    font-family:'Comic Sans MS';
+    font-size: 190%;
+    color: #6e6562; 
+    margin-top: -15%;
+}
+
+.raising{
+
+    margin-top: -41%;
+   
+}
+.raising2{
+    height: 180;
+    width: 190;
+    margin-top: -25%;
+    margin-left: 16%; 
+}
+.location2{
+    margin-top: -15%;
+    font-family:'Comic Sans MS';
+    font-size: 210%;
+    color: #000000; 
+    align-content: right;
+    align-items:stretch;
+    justify-content: center;
+   
+    margin-left: 19%;
+  
+}
+
+.wrapper_table2{
+    margin-top: 5em;
+    
+    display: grid;
+    flex-direction: row;
+    align-items:stretch;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+}
+.imageContentBlock2{
+    
+    outline: solid 4px #000000;
+    position: relative;
+    display: grid;
+    justify-items: center;
+    justify-content: center;
+    height: var(--image-h);
+    width: auto;
+    margin: 2em;
+    grid-template-rows: repeat(2, auto);
+
+}
+.container-fluid3{
+    background: #7728DB;
+    min-height: 250px;
+    min-width: 700px;
+    margin-top: 3%;
+}
+
+.ultra{
+    font-family:'Comic Sans MS';
+    font-size: 370%;
+    color:  whitesmoke;
+    
+}
+
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+  }   
+
+  .outer {  
+    margin-top: 1em;
+    margin-left: 40; 
+    width: 200px;  
+    height: 200px;  
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);  
+    border-radius: 35px;  
+    display: grid;  
+    place-items: center;  
+  }  
+  /* innerside in outer box */  
+  .inner {  
+    width: 150px;  
+    height: 150px;  
+    border: 15px solid #fff;  
+    border-radius: 32px;  
+    display: grid;  
+    place-items: center;  
+    position: relative;  
+  } 
+  /* center circle of logo */  
+  .inner::before {  
+    content: '';  
+    width: 40px;  
+    height: 40px;  
+    border: 13px solid #fff;  
+    border-radius: 50%;  
+    background: transparent;  
+    position: absolute;  
+  }  
+  /* top right circle of logo */  
+  .inner::after {  
+    content: '';  
+    width: 12px;  
+    height: 12px;  
+    border: 4px solid #fff;  
+    border-radius: 50%;  
+    background: #fff;  
+    position: absolute;  
+    top: 13px;  
+    right: 15px;  
+} 
+
+.basis{
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20;
+
+}
+.facebook-logo {
+    background: #4661b0;
+    width: 170px;
+    height: 210px;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+    border: 15px solid #4661b0;
+    border-bottom: 0;
+}
+.facebook-logo:before {
+    content: "";
+    position: absolute;
+    background: #4661b0;
+    width: 55px;
+    height: 190px;
+    bottom: -40px;
+    right: -30px;
+    border: 25px solid #fff;
+    border-radius: 25px;
+}
+.facebook-logo:after {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 75px;
+    height: 20px;
+    top: 80px;
+    right: 21px;
+}
+/* .tableHeader2 {
+    width:100%;
+    min-width: 10px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+} */
